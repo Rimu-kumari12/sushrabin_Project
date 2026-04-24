@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 20% 98%;
+    --foreground: 220 15% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 12%;
+
+    --primary: 220 15% 12%;
+    --primary-foreground: 40 20% 98%;
+
+    --secondary: 30 15% 95%;
+    --secondary-foreground: 220 15% 12%;
+
+    --muted: 30 12% 94%;
+    --muted-foreground: 220 8% 45%;
+
+    --accent: 215 85% 55%;
+    --accent-foreground: 0 0% 100%;
+    --accent-soft: 215 90% 96%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 10% 90%;
+    --input: 30 10% 90%;
+    --ring: 220 15% 12%;
+
+    --radius: 1rem;
+
+    /* Brand surfaces */
+    --surface-cream: 38 30% 96%;
+    --surface-warm: 30 25% 93%;
+    --surface-elevated: 0 0% 100%;
+
+    /* Gradients */
+    --gradient-hero: radial-gradient(ellipse at top right, hsl(215 90% 92%) 0%, hsl(40 20% 98%) 55%);
+    --gradient-soft: linear-gradient(180deg, hsl(40 20% 98%) 0%, hsl(30 25% 95%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(215 85% 55%), hsl(245 70% 60%));
+
+    /* Shadows — soft Apple-like */
+    --shadow-xs: 0 1px 2px hsl(220 15% 12% / 0.04);
+    --shadow-sm: 0 2px 8px -2px hsl(220 15% 12% / 0.06);
+    --shadow-md: 0 8px 24px -8px hsl(220 15% 12% / 0.08);
+    --shadow-lg: 0 24px 60px -20px hsl(220 15% 12% / 0.18);
+    --shadow-glow: 0 0 60px hsl(215 90% 70% / 0.25);
+
+    --transition-smooth: cubic-bezier(0.32, 0.72, 0, 1);
+  }
+
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 40 20% 98%;
+    --card: 220 15% 10%;
+    --card-foreground: 40 20% 98%;
+    --popover: 220 15% 10%;
+    --popover-foreground: 40 20% 98%;
+    --primary: 40 20% 98%;
+    --primary-foreground: 220 15% 8%;
+    --secondary: 220 12% 16%;
+    --secondary-foreground: 40 20% 98%;
+    --muted: 220 12% 16%;
+    --muted-foreground: 220 8% 65%;
+    --accent: 215 85% 60%;
+    --accent-foreground: 0 0% 100%;
+    --border: 220 12% 18%;
+    --input: 220 12% 18%;
+    --ring: 215 85% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  h1, h2, h3, h4 {
+    @apply tracking-tight;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .font-serif-display {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    letter-spacing: -0.01em;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-hero {
+    background: var(--gradient-hero);
+  }
+
+  .bg-soft {
+    background: var(--gradient-soft);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-lg);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-md);
+  }
+
+  .glass {
+    background: hsl(0 0% 100% / 0.7);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+  }
+
+  .reveal {
+    animation: reveal 0.9s var(--transition-smooth) both;
+  }
+
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+
+  .animate-float { animation: float 6s ease-in-out infinite; }
+}
