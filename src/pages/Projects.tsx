@@ -155,7 +155,8 @@ const projects: Project[] = [
     client: "Tech: Solidity, Ethereum, Polygon, OpenZeppelin, React/Next.js",
     year: 2024,
     desc: "Development of a decentralized finance (DeFi) application, such as a Lending/Borrowing platform or an Automated Market Maker (AMM) DEX. This showcases advanced smart contract logic, secure token handling (ERC-20), liquidity pool design, and integration with complex on-chain oracles (like Chainlink).",
-    image: "/src/assets/custom_defi.png",
+    // image: "/src/assets/custom_defi.png",
+     image: customDefi,
   },
   {
     title: "Enterprise Supply Chain Traceability",
@@ -163,7 +164,8 @@ const projects: Project[] = [
     client: "Tech: Hyperledger, Corda, Node.js, IoT",
     year: 2024,
     desc: "Building a permissioned blockchain solution to track goods (e.g., luxury items, pharmaceuticals) from origin to consumer. This demonstrates expertise in private/consortium chains, setting up peer nodes, managing membership services (KYC/AML), and integrating with traditional business systems (ERPs).",
-    image: "/src/assets/enterprise.png",
+    // image: "/src/assets/enterprise.png",
+      image: enterprise,
   },
   {
     title: "NFT Marketplace Platform",
@@ -171,7 +173,8 @@ const projects: Project[] = [
     client: "Tech: Solana, Ethereum, Rust, IPFS",
     year: 2024,
     desc: "Full-stack development of a secondary marketplace for Non-Fungible Tokens (NFTs) or the tokenization of real-world assets (RWA) like real estate. This highlights proficiency in custom token standard implementation, designing dynamic royalty fees, and secure wallet integration (e.g., MetaMask, Phantom).",
-    image: "/src/assets/Nft_market.png",
+    // image: "/src/assets/Nft_market.png",
+      image: nftMarket,
   },
   {
     title: "Self-Sovereign Identity (SSI) System",
@@ -179,7 +182,8 @@ const projects: Project[] = [
     client: "Tech : Hyperledger Indy/Aries, Zero-Knowledge Proofs (ZKP), Verifiable Credentials (VCs)",
     year: 2024,
     desc: "A system that allows users to store and control their identity data (e.g., academic degrees, medical records) and share Verifiable Credentials without relying on a central authority. This showcases expertise in complex cryptographic security, privacy-preserving technologies (ZKP), and enterprise-grade identity management.",
-    image: "/src/assets/self_sove.png",
+    // image: "/src/assets/self_sove.png",
+      image: selfSove,
   },
   {
     title: "Decentralized Autonomous Organization (DAO)",
@@ -187,7 +191,8 @@ const projects: Project[] = [
     client: "Tech : Solidity/Vyper, OpenZeppelin Governor contracts, Snapshot (Off-chain voting)",
     year: 2023,
     desc: "Creating the entire framework for a DAO, including the governance token contract, proposal and voting smart contracts, and a front-end portal for member interaction and treasury management. This proves ability in governance logic, community-based decision systems, and secure on-chain treasury control.",
-    image: "/src/assets/Decentralized.png",
+    // image: "/src/assets/Decentralized.png",
+     image: decentralized,
   },
   {
     title: "Custom Layer 2 Scaling Solution",
@@ -195,7 +200,8 @@ const projects: Project[] = [
     client: "Tech: Polygon SDK / Arbitrum Nitro stack, EVM compatibility, Node.js/Go",
     year: 2023,
     desc: "Building a custom sidechain or Layer 2 solution tailored to a specific application’s high throughput needs (e.g., gaming, frequent small payments). This demonstrates mastery of blockchain architecture design, gas optimization, and advanced knowledge of scaling solutions beyond the main chains.",
-    image: "/src/assets/custom_layer2.png",
+    // image: "/src/assets/custom_layer2.png",
+     image: layer2,
   },
 
     {
@@ -204,7 +210,8 @@ const projects: Project[] = [
     client: "Tech: Flutter with Firebase(for real-time backend/auth), REST API integration",
     year: 2024,
     desc: "A secure, cross-platform financial application that allows users to track income and expenses across multiple accounts. Key Features to Highlight: Secure biometric authentication, real-time data sync, dynamic charts/reporting for monthly spending analysis, and customizable budget alerts. This showcases expertise in security, data visualization, and complex state management.",
-    image: "/src/assets/fintech.png",
+    // image: "/src/assets/fintech.png",
+    image: fintech,
   },
   {
     title: "ProFinder: Service Provider Locator",
@@ -212,7 +219,8 @@ const projects: Project[] = [
     client: "Tech: Flutter with Node.js/Express Backend, MongoDB, Google Maps API",
     year: 2024,
     desc: "An app that connects users (clients) with nearby service providers (freelancers, handymen, tutors, etc.) based on location. Key Features to Highlight: Real-time GPS tracking (for the provider side), integrated chat feature (using a service like Socket.IO or Firebase Realtime Database), rating and review system, and dynamic map markers. This demonstrates proficiency in real-time communication, mapping services, and multi-user type architecture.",
-    image: "/src/assets/profinder.png",
+    // image: "/src/assets/profinder.png",
+     image: profinder,
   },
   {
     title: "Machine Learning Utility",
@@ -220,7 +228,8 @@ const projects: Project[] = [
     client: "Tech:React Native, Python Backend (Flask/FastAPI), TensorFlow Lite/OpenAI API",
     year: 2024,
     desc: "A utility app that processes user input (e.g., photo of an object, text snippet) and performs a classification or summarization task via a custom or third-party ML model. Focus: Essential for demonstrating AI/ML integration via APIs and managing high-load backend communication.",
-    image: "/src/assets/machine_learning.png",
+    // image: "/src/assets/machine_learning.png",
+     image: ml,
   },
   {
     title: "Animated E-Commerce Platform",
@@ -228,7 +237,8 @@ const projects: Project[] = [
     client: "Tech:Flutter, Riverpod/Bloc (State Management), Firebase/Supabase, Stripe SDK",
     year: 2024,
     desc: "A visually stunning e-commerce application with smooth, customized animations for browsing products and checking out. Focus: Leverages Flutter’s ability to build pixel-perfect, highly custom UI/UX with native performance, complex product filtering, and reliable payment gateway integration.",
-    image: "/src/assets/Animated_e-com.png",
+    // image: "/src/assets/Animated_e-com.png",
+     image: ecommerce,
   },
   {
     title: "Cross-Platform CRM Tool",
@@ -236,7 +246,8 @@ const projects: Project[] = [
     client: "Tech: Flutter, GetX/Bloc, Hive/Sqflite (Local DB), RESTful API",
     year: 2023,
     desc: "A professional productivity app designed to manage sales leads or customer pipelines across mobile and web (using Flutter Web). Focus: Highlights code reusability across multiple platforms, offline functionality (local data caching), and complex form/data entry design.",
-    image: "/src/assets/cross_platform.png",
+    // image: "/src/assets/cross_platform.png",
+      image: crm,
   },
   {
     title: "Health & Wellness Tracker",
@@ -244,7 +255,8 @@ const projects: Project[] = [
     client: "Tech: Flutter, Provider/Bloc, HealthKit/Google Fit APIs, Local Notifications",
     year: 2023,
     desc: "A fitness app that integrates with native health services to track steps, calories, and provide personalized goal setting. Focus: Mastery of Native API integration (crucial for health apps), scheduling local notifications, and developing an engaging, motivational user interface.",
-    image: "/src/assets/health_well.png",
+    // image: "/src/assets/health_well.png",
+     image: health,
   },
    {
     title: "DataFlow: Subscription Analytics Hub",
@@ -252,7 +264,8 @@ const projects: Project[] = [
     client: "Tech: React, Next.js App Router, TypeScript, Chart.js/Recharts, Tailwind CSS, PostgreSQL/MongoDB",
     year: 2024,
     desc: "A comprehensive dashboard designed for a subscription business. Users can view real-time metrics (MRR, Churn), manage user subscriptions, and handle webhooks from payment processors (Stripe/PayPal). This project showcases proficiency in security, complex data visualization , and large-scale state management.",
-    image: "/src/assets/dataflow.png",
+    // image: "/src/assets/dataflow.png",
+     image: dataflow,
   },
   {
     title: "Collaborative Markdown Editor",
@@ -260,7 +273,8 @@ const projects: Project[] = [
     client: "Tech: React, Next.js App Router, Socket.IO (for real-time), Rich Text Editor Library (e.g., BlockNote/TipTap), Prisma/Supabase.",
     year: 2024,
     desc: "A Google Docs-style application where users can create and edit documents collaboratively in real-time. Focus: Mastery of WebSockets for real-time synchronization, complex form management, and handling data persistence with an ORM/database.",
-    image: "/src/assets/collaborative.png",
+    // image: "/src/assets/collaborative.png",
+    image: collaborative,
   },
   {
     title: "NexusCart: High-Performance Retail",
@@ -268,7 +282,8 @@ const projects: Project[] = [
     client: "Tech: React, Next.js Pages Router (for ISR), GraphQL/Apollo, Stripe SDK, Headless CMS (e.g., Strapi/Contentful).",
     year: 2024,
     desc: "A blazing-fast, consumer-facing storefront decoupled from a traditional e-commerce backend. Focus: Demonstrates expertise in performance optimization, advanced filtering/search, secure payment gateway integration, and utilizing GraphQL for efficient data fetching.",
-    image: "/src/assets/nexuscart.png",
+    // image: "/src/assets/nexuscart.png",
+    image: nexuscart,
   },
   {
     title: "AI-Powered Content Generator",
@@ -276,7 +291,8 @@ const projects: Project[] = [
     client: "Tech: React, Next.js App Router, Vercel AI SDK, OpenAI/Gemini API, Authentication (NextAuth.js/Clerk), Vector Database (e.g., Pinecone).",
     year: 2024,
     desc: "A tool where users input a prompt (e.g., “write a blog post about X”) and receive AI-generated content. Includes history, saved drafts, and token limits. Focus: Essential for showing proficiency in AI API integration, streaming responses (for real-time typing), and full-stack authentication.",
-    image: "/src/assets/Ai-powerde.png",
+    // image: "/src/assets/Ai-powerde.png",
+     image: ai,
   },
   {
     title: "TimeSlot: Freelancer Booking Hub",
@@ -284,7 +300,8 @@ const projects: Project[] = [
     client: "Tech: React, Next.js App Router, FullCalendar.js, PostgreSQL, tRPC (optional, for type-safe APIs).",
     year: 2023,
     desc: "A SaaS application where businesses (tenants) can create unique booking pages (/user-slug/book), manage their availability, and clients can schedule appointments. Focus: Demonstrates multi-tenancy architecture, complex calendar logic, and user authorization flows.",
-    image: "/src/assets/timeslot.png",
+    // image: "/src/assets/timeslot.png",
+     image: timeslot,
   },
   {
     title: "Custom Job Board Platform",
@@ -292,7 +309,8 @@ const projects: Project[] = [
     client: "Tech: React, Next.js App Router, Algolia/Elasticsearch (for search), NextAuth.js, Node.js/Prisma.",
     year: 2023,
     desc: "A specialized job board platform (e.g., for niche tech roles). Features include job posting for employers and advanced filtering/search for job seekers. Focus: Mastering advanced search functionality, handling different user roles (Employer/Seeker), and implementing SEO-friendly job listing pages (crucial for traffic).",
-    image: "/src/assets/custom_jon.png",
+    // image: "/src/assets/custom_jon.png",
+     image: job,
   },
 
     {
@@ -301,7 +319,8 @@ const projects: Project[] = [
     client: "Tool: Figma",
     year: 2024,
     desc: "Collaborative tools, low-latency design, multi-user cursors, and version control. Project: Redesign a simplified, real-time online whiteboard (like Miro or FigJam) optimized for remote design teams. The UX must prioritize simultaneous editing, clear visual indicators for collaborators’ presence, and a clean, context-sensitive tool menu that avoids clutter. UI Challenge: Creating smooth, lag-free interactions (drawing, moving objects) and a comprehensive history/version-rollback panel.",
-    image: "/src/assets/collaboard_real.png",
+    // image: "/src/assets/collaboard_real.png",
+     image: collaboard,
   },
   {
     title: "StockPulse: Live Trading Dashboard",
@@ -309,7 +328,8 @@ const projects: Project[] = [
     client: "Tool: Figma",
     year: 2024,
     desc: "Data visualization, information architecture, and real-time alerts. Project: Design a professional dashboard for monitoring cryptocurrency or stock portfolios. The UX must allow users to track dozens of metrics simultaneously without cognitive overload. UI Challenge: Designing complex, highly-readable charts (e.g., Candlestick charts), optimizing data density, and creating an intuitive alert system for price changes that minimizes false alarms.",
-    image: "/src/assets/stockpulse.png",
+    // image: "/src/assets/stockpulse.png",
+     image: stockpulse,
   },
   {
     title: "DispatchNow: Geo-Tracking & Logistics App",
@@ -317,7 +337,8 @@ const projects: Project[] = [
     client: "Tool: Figma",
     year: 2024,
     desc: " Location services, real-time map interaction, and urgent status updates. Project: Design the mobile interface for a service provider (e.g., a delivery driver, ambulance dispatcher). The UX must reduce cognitive load during high-stress situations. UI Challenge: Creating a map interface with highly visible, color-coded status pins, designing an efficient two-tap workflow for status updates (“Arrived,” “Complete”), and ensuring the turn-by-turn navigation is clear even in bright sunlight.",
-    image: "/src/assets/dispatch_now.png",
+    // image: "/src/assets/dispatch_now.png",
+    image: dispatch,
   },
   {
     title: "OmniChat: Unified Messaging Hub",
@@ -325,7 +346,8 @@ const projects: Project[] = [
     client: "Tool: Figma",
     year: 2024,
     desc: "Multi-channel integration, conversation threading, and notification management. Project: Design an application that aggregates messages from various platforms (Slack, WhatsApp, Email, CRM) into a single inbox. The UX must solve the pain point of context switching. UI Challenge: Creating effective filtering and sorting tools, designing a visual system for different source icons, and developing a clean, multi-panel layout for viewing the conversation list alongside the active chat.",
-    image: "/src/assets/omnichat.png",
+    // image: "/src/assets/omnichat.png",
+    image: omnichat,
   },
   {
     title: "SmartHome Energy Dashboard",
@@ -333,7 +355,8 @@ const projects: Project[] = [
     client: "Tool: Figma",
     year: 2023,
     desc: "IoT control, data logging, and proactive system alerts. Project: Design an iPad/Tablet interface for monitoring and managing a smart home’s energy consumption and devices. The UX should shift the user from reactive control to proactive management. UI Challenge: Creating an appealing and clear data visualization of energy use over time, designing a simple zoning interface (e.g., “Downstairs vs. Upstairs”), and making the controls for critical devices immediately accessible.",
-    image: "/src/assets/smarthome.png",
+    // image: "/src/assets/smarthome.png",
+     image: smarthome,
   },
   {
     title: "Interactive Fitness Class Streamer",
@@ -341,7 +364,8 @@ const projects: Project[] = [
     client: "Tool: Figma",
     year: 2023,
     desc: "Two-way social interaction, media streaming, and performance data display. Project: Design the web or smart TV interface for a live-streamed fitness platform. The UX needs to replicate the energy of a real class. UI Challenge: Strategically placing a low-distraction chat/social feed next to the primary video stream, designing an unobtrusive overlay for real-time user metrics (leaderboard, heart rate), and ensuring a seamless, high-quality media streaming experience.",
-    image: "/src/assets/interactive.png",
+    // image: "/src/assets/interactive.png",
+      image: interactive,
   },
 ];
 
