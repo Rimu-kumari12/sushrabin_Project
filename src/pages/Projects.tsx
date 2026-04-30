@@ -114,6 +114,30 @@
 import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import customDefi from "../assets/custom_defi.png";
+import enterprise from "../assets/enterprise.png";
+import nftMarket from "../assets/Nft_market.png";
+import selfSove from "../assets/self_sove.png";
+import decentralized from "../assets/Decentralized.png";
+import layer2 from "../assets/custom_layer2.png";
+import fintech from "../assets/fintech.png";
+import profinder from "../assets/profinder.png";
+import ml from "../assets/machine_learning.png";
+import ecommerce from "../assets/Animated_e-com.png";
+import crm from "../assets/cross_platform.png";
+import health from "../assets/health_well.png";
+import dataflow from "../assets/dataflow.png";
+import collaborative from "../assets/collaborative.png";
+import nexuscart from "../assets/nexuscart.png";
+import ai from "../assets/AI-powerde.png";
+import timeslot from "../assets/timeslot.png";
+import job from "../assets/custom_jon.png";
+import collaboard from "../assets/collaboard_real.png";
+import stockpulse from "../assets/stockpulse.png";
+import dispatch from "../assets/dispatch_now.png";
+import omnichat from "../assets/omnichat.png";
+import smarthome from "../assets/smarthome.png";
+import interactive from "../assets/interactive.png";
 
 type Project = {
   title: string;
