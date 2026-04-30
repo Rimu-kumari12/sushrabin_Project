@@ -44,7 +44,7 @@ const Index = () => {
             </h1>
             <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
               Sushrabin Private Limited is a leading IT services company. With 67+ senior
-              engineers and 6+ years of experience, we've delivered 437+ web, mobile, and
+              engineers and 8+ years of experience, we've delivered 437+ web, mobile, and
               blockchain products to teams worldwide.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">

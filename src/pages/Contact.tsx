@@ -36,9 +36,9 @@ const Contact = () => {
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5 space-y-6">
             {[
-              { Icon: Mail, label: "Email", value: "hello@sushrabin.com" },
-              { Icon: Phone, label: "Phone", value: "+1 (415) 555-0142" },
-              { Icon: MapPin, label: "Offices", value: "USA · India · Dubai · Japan · Italy" },
+              { Icon: Mail, label: "Email", value: "admin@sushrabin.com" },
+              { Icon: Phone, label: "Phone", value: "+91 8862838829" },
+              { Icon: MapPin, label: "Offices", value: "Bangalore,India" },
             ].map(({ Icon, label, value }) => (
               <div key={label} className="flex items-start gap-4 rounded-3xl border border-border bg-card p-6">
                 <div className="grid h-11 w-11 place-items-center rounded-2xl bg-accent-soft text-accent">

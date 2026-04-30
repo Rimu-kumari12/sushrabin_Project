@@ -103,7 +103,7 @@
 @layer utilities {
   .font-serif-display {
     font-family: 'Instrument Serif', serif;
-    font-style: italic;
+    /* font-style: italic; */
     letter-spacing: -0.01em;
   }
 
