@@ -137,6 +137,7 @@ import stockpulse from "../assets/stockpulse.png";
 import dispatch from "../assets/dispatch_now.png";
 import omnichat from "../assets/omnichat.png";
 import smarthome from "../assets/smarthome.png";
+// import interactive from "../assets/interactive.png";
 import interactive from "../assets/interactive.png";
 
 type Project = {

@@ -46,7 +46,7 @@ const Services = () => {
       <section className="container py-20 md:py-28">
         <p className="text-sm font-medium text-accent">Services</p>
         <h1 className="mt-4 max-w-4xl text-5xl font-semibold leading-[1.05] md:text-7xl text-balance">
-          One studio. <span className="font-serif-display">Every layer of the stack.</span>
+          One studio.Every layer of the stack.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground leading-relaxed">
           From product strategy to launch, we partner across the full lifecycle. Pick a service
@@ -83,7 +83,7 @@ const Services = () => {
       <section className="container pb-24 md:pb-32">
         <div className="rounded-[2.5rem] bg-soft p-10 md:p-16">
           <h2 className="max-w-3xl text-4xl md:text-5xl font-semibold text-balance">
-            Not sure where to start? <span className="font-serif-display">Let's talk.</span>
+            Not sure where to start? Let's talk.
           </h2>
           <p className="mt-4 max-w-xl text-muted-foreground">
             A 30-minute call is enough to scope your idea and recommend the smallest first step.

@@ -112,7 +112,7 @@ const Index = () => {
           <div className="max-w-2xl">
             <p className="text-sm font-medium text-accent">Our offerings</p>
             <h2 className="mt-3 text-4xl font-semibold md:text-5xl text-balance">
-              Everything you need, <span className="font-serif-display">crafted in one place.</span>
+              Everything you need, crafted in one place.
             </h2>
           </div>
           <Link to="/services" className="text-sm font-medium hover:text-accent">
@@ -138,7 +138,7 @@ const Index = () => {
           <div className="max-w-2xl">
             <p className="text-sm font-medium text-accent">Why work with us</p>
             <h2 className="mt-3 text-4xl font-semibold md:text-5xl text-balance">
-              Strong teams, <span className="font-serif-display">successful projects.</span>
+              Strong teams, successful projects.
             </h2>
             <p className="mt-4 text-muted-foreground">
               Our expert-driven approach ensures high-quality delivery, seamless collaboration,
@@ -165,7 +165,7 @@ const Index = () => {
         <div className="max-w-2xl">
           <p className="text-sm font-medium text-accent">How it works</p>
           <h2 className="mt-3 text-4xl font-semibold md:text-5xl text-balance">
-            From idea to launch — <span className="font-serif-display">together.</span>
+            From idea to launch — together.
           </h2>
         </div>
 

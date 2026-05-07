@@ -53,7 +53,7 @@ const Footer = () => {
 
         <div className="mt-12 flex flex-col md:flex-row items-center justify-between gap-4 border-t border-border pt-6 text-xs text-muted-foreground">
           <p>© {new Date().getFullYear()} Sushrabin Private Limited. All rights reserved.</p>
-          <p>Crafted with care across USA · India · Dubai · Japan · Italy</p>
+          {/* <p>Crafted with care across USA · India · Dubai · Japan · Italy</p> */}
         </div>
       </div>
     </footer>

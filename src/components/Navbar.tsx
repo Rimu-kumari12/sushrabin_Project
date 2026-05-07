@@ -38,10 +38,22 @@ const Navbar = () => {
           scrolled ? "glass shadow-soft" : "bg-transparent"
         )}
       >
-        <Link to="/" className="flex items-center gap-2">
+        {/* <Link to="/" className="flex items-center gap-2">
           <div className="h-8 w-8 rounded-xl bg-gradient-to-br from-accent to-primary" />
           <span className="font-semibold tracking-tight">Sushrabin</span>
-        </Link>
+        </Link> */}
+
+        {
+          <Link to="/" className="flex items-center gap-2">
+  <img
+    src="https://sushrabin.com/wp-content/uploads/2025/12/cropped-af0ac6c2-1e67-4f4c-af69-632440d99730-removebg-preview-300x300-1.png"
+    alt="Sushrabin Logo"
+    className="h-8 w-8 object-contain"
+  />
+  
+  <span className="font-semibold tracking-tight">Sushrabin</span>
+</Link>
+        }
 
         <nav className="hidden md:flex items-center gap-1">
           {links.map((l) => (

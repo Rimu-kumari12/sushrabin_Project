@@ -59,10 +59,10 @@ const Contact = () => {
 
           <form onSubmit={handleSubmit} className="lg:col-span-7 rounded-3xl border border-border bg-card p-8 md:p-10 space-y-5">
             <div className="grid gap-5 md:grid-cols-2">
-              <Field label="Your name" name="name" placeholder="Jane Doe" required />
-              <Field label="Email" name="email" type="email" placeholder="jane@company.com" required />
+              <Field label="Your name" name="name"  required />
+              <Field label="Email" name="email" type="email" required />
             </div>
-            <Field label="Company" name="company" placeholder="Acme Inc." />
+            <Field label="Company" name="company" />
             <div>
               <label className="text-sm font-medium">Project type</label>
               <select
